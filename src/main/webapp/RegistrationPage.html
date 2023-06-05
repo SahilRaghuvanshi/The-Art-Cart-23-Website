@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript"> 
+Banners=new Array('img1.png','img2.png','img3.png','img4.png','img5.png') 
+CurrentBanner=0 
+function
+DisplayBanners()
+{
+if(document.images)
+{
+CurrentBanner++
+if(CurrentBanner == Banners.length )
+{
+CurrentBanner=0
+}
+document.RotateBanner.src=Banners[CurrentBanner]
+setTimeout("DisplayBanners()",1000)
+}
+}
+function Login()
+{
+	window.location.href = "index.jsp";
+}
+</script>
+</head>
+<body onload="DisplayBanners()">
+     <div class="navbar">
+        <div class="text">
+            Beauty of Art Unfolded
+        </div>
+    </div> 
+<div class="middle1">
+    <form class="form-card1 Formcss" method="get" action="http://localhost:9292/TheArtCart23/addUser">
+        <div>
+               <p class="title1">Registration Page</p>
+        <table>
+              <tr class="row1">
+                <td>
+                    Name
+                </td>
+                <td>
+                    <input type="text" required id="name" name="name" class="inputtag" >
+                </td>
+            </tr>
+           <tr class="row1">
+                <td>
+                    Mobile Number
+                </td>
+                <td>
+                    <input type="number" required id="mobile" name="mobile" class="inputtag" minlength="10" maxlength="10">
+                </td>
+            </tr>
+            <tr class="row1">
+                <td>
+                    Email ID
+                </td>
+                <td>
+                    <input type="email" id="emailid" name="emailid" class="inputtag" >
+                </td>
+            </tr>
+            <tr class="row">
+                <td>
+                    Password
+                </td>
+                <td>
+                    <input type="password" required id="password" name="password" class="inputtag">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button"  class="submit-button1" value="Login" onclick="Login()">
+                <input type="submit" required class="submit-button1" value="Register"></td>
+              </tr>
+        </table>  
+        </div>
+		<img src="img1.png" width="500" height="500" name="RotateBanner" class="banner"/>
+       </form>
+</div>
+</body>
+</html>

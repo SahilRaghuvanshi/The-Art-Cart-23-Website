@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cinzel:wght@600&family=Handlee&family=Noto+Serif+Khojki&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+html,body {
+    margin:0;
+    padding:0;
+    background-image: url("94782.jpg");
+    
+}
+
+.card-header{
+    position: relative;
+}
+.Formcss{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:x-large;
+        display:flex;
+        flex-wrap: wrap;
+        margin-top:30px;
+}
+.indexpage{
+	margin:-100px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+table tr td{
+    padding: 10px;
+}
+.inputtag{
+    width:300px;
+    height:30px;
+    border-radius: 16px;
+}
+.middle{
+    margin-left: 500px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    
+}
+.banner{
+    margin-left: 30px;	
+        border-radius: 16px;
+}
+.middle1{
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    
+}
+.submit-button{
+    width: 100%;
+    height:50px;
+    border-radius: 16px;
+    border: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,170,1) 100%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:x-large;
+}
+.submit-button1{
+    width: 40%;
+    height:50px;
+    border-radius: 16px;
+    border: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,170,1) 100%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:x-large;
+}
+.form-card{
+    margin-top: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    border: 1px solid rgb(156, 150, 150);
+    padding: 15px;
+    width: 500px;
+    border-radius: 16px;
+}
+.likes{
+    position: absolute;
+    bottom:0;
+    background-color: white;
+    margin:15px;
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+.heart{
+    position: absolute;
+    top:0;
+    right:0;
+    margin: 20px;
+}
+
+
+.whatsapp{
+    width:200px;
+    height: 60px;
+    background-color:rgb(18,140,126) ;
+    border: none;
+    border-radius: 16px;
+    margin: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.wtlogo{
+    height: 100%;
+}
+.wttext{
+    color: white;
+    font-size:large;
+    margin-left: 8px;
+}
+
+
+
+
+
+.follow{
+    color: white;
+    font-size: 30px;
+}
+
+@media(min-width: 586px)
+{
+    .options{
+        margin-left: 40px;
+        font-size: xx-large;
+        text-decoration: none;
+        color:rgb(40, 221, 212);
+        padding-top: 12px;
+    
+    }
+    .text{
+        font-size: 60px;
+        font-family: 'Babylonica', cursive;
+        font-family: 'Cinzel', serif;
+        padding-left: 60px;
+        color:white;
+    }
+    .navbar{
+        width:100%;
+        background-color: teal;
+        height: 80px;
+        position:sticky;
+        top:0;
+        z-index: 1;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        display: flex;
+         align-items: center;
+    }
+    .bottom{
+        width:100%;
+        background-color: rgb(136, 203, 203);
+        height: 200px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .social{
+        height:80px;
+        margin-left: 50px;
+    }
+    .social1{
+        height:50px;
+        margin-left: 20px;
+    }
+    
+    .heading
+{
+    display: flex;
+    align-items:center;
+    padding-left:200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    .user{
+        border-radius: 50%;
+        width: 200px;
+        border: 3px solid white;
+    }
+    .card{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        border: 1px solid rgb(156, 150, 150);
+        padding: 15px;
+        width: 300px;
+        border-radius: 16px;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pallete{
+        width:400px;
+        padding-left: 50px;
+    }
+    .theartcart23{
+        padding-left: 20px;
+        font-family: 'Babylonica', cursive;
+        font-size: 6vw;
+    }
+    .paint-card{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        border: 1px solid rgb(156, 150, 150);
+        padding: 15px;
+        border-radius: 16px;
+        width:500px;
+        margin-bottom: 300px;
+    }
+    .painting-details{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        padding: 15px;
+        border-radius: 16px;
+        width:500px;
+        margin-bottom: 300px;  
+        height:50%;
+    }
+    .main-painting-view{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 270px;
+        margin-top: 100px;
+    }
+    .main-painting-view1{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 270px;
+    }
+}
+@media(max-width: 1290px)
+{
+
+    .text{
+        font-size: 3vw;
+        font-family: 'Babylonica', cursive;
+        font-family: 'Cinzel', serif;
+        padding-left: 60px;
+        color:white;
+    }
+.user{
+    display:none;
+}
+.pallete{
+    display: none;
+}
+    .card{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        border: 1px solid rgb(156, 150, 150);
+        padding: 15px;
+        border-radius: 16px;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pallete{
+        width:400px;
+        padding-left: 50px;
+    }
+    .theartcart23{
+        padding-left: 20px;
+        font-family: 'Babylonica', cursive;
+        font-size: 10vw;
+    }
+    .options{
+        margin-left: 40px;
+        font-size: 2.5vw;
+        text-decoration: none;
+        color:rgb(40, 221, 212);
+        padding-top: 12px;
+    
+    }
+    .paint-card{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        border: 1px solid rgb(156, 150, 150);
+        padding: 15px;
+        border-radius: 16px;
+        width:500px;
+        margin-bottom: 300px;
+    }
+    .painting-details{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        padding: 15px;
+        border-radius: 16px;
+        width:500px;
+        margin-bottom: 300px;  
+        height:100%;
+    }
+    .main-painting-view{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 250x;
+        margin-top: 50px;
+    }
+        .main-painting-view1{
+        display:flex;
+        flex-wrap: wrap;
+                margin-left: 270px;
+    }
+}
+@media(max-width: 586px)
+{
+    .navbar{
+        width:100%;
+        background-color: teal;
+        height: 80px;
+        position:sticky;
+        top:0;
+        z-index: 1;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        flex-wrap: wrap;
+        /* display: flex;
+         align-items: center; */
+    }
+    .options{
+        margin-left: 40px;
+        font-size: 4vw;
+        text-decoration: none;
+        color:rgb(40, 221, 212);
+        padding-top: 12px;
+    
+    }
+    .navbar{
+        width:100%;
+        background-color: teal;
+        height: 80px;
+        position:sticky;
+        top:0;
+        z-index: 1;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .social{
+        height:7vw;
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
+        .social1{
+        height:50px;
+        margin-left: 20px;
+    }
+    .bottom{
+        width:100%;
+        background-color: rgb(136, 203, 203);
+        height: 200px;
+        margin-top: 10px;
+    }
+    .heading
+    {
+        padding-left: 90px;
+    }
+    .user{
+        display:none;
+    }
+    .pallete{
+        display: none;
+    }
+    .card{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        border: 1px solid rgb(156, 150, 150);
+        padding: 15px;
+        border-radius: 16px;
+    }
+    .paint-card{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        border: 1px solid rgb(156, 150, 150);
+        padding: 15px;
+        border-radius: 16px;
+        width:500px;
+        margin-bottom: 300px;
+    }
+    .theartcart23{
+        font-family: 'Babylonica', cursive;
+    }
+    .painting-details{
+        margin-top: 15px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+        padding: 15px;
+        border-radius: 16px;
+        width:500px;
+        margin-bottom: 300px;  
+        height:100%;
+    }
+    .main-painting-view{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+        .main-painting-view1{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 270px;
+    }
+
+
+}
+.title{
+    font-size:xx-large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Intro{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.title1{
+    font-size:xxx-large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Buy-Now{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding:10px 20px;
+    color: aliceblue;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 5px;
+
+}
+.watch-video{
+    background-color: rgb(70, 1, 99);
+    border: none;
+    padding:10px 20px;
+    color: aliceblue;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 5px;
+
+}
+
+
+
+
